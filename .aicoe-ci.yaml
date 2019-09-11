@@ -1,0 +1,39 @@
+check:
+  - overlays-build
+overlays_dir: overlays
+overlays:
+  - name: ps-cv
+    build:
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
+      build-stratergy: Source
+      registry: quay.io
+      registry-org: thoth-station
+      registry-project: ps-cv
+      registry-secret: thoth-station-thoth-pusher-secret
+
+  - name: ps-cv-ocr
+    build:
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
+      build-stratergy: Source
+      registry: quay.io
+      registry-org: thoth-station
+      registry-project: ps-cv-ocr
+      registry-secret: thoth-station-thoth-pusher-secret
+
+  - name: ps-cv-pytorch
+    build:
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
+      build-stratergy: Source
+      registry: quay.io
+      registry-org: thoth-station
+      registry-project: ps-cv-pytorch
+      registry-secret: thoth-station-thoth-pusher-secret
+
+  - name: ps-cv-tensorflow
+    build:
+      base-image: "quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
+      build-stratergy: Source
+      registry: quay.io
+      registry-org: thoth-station
+      registry-project: ps-cv-tensorflow
+      registry-secret: thoth-station-thoth-pusher-secret
