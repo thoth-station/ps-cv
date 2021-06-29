@@ -32,11 +32,11 @@ It is using some of the packages from `Generic Data Science Image <https://githu
     - statsmodels
 
 
-## List of packages in ps-cv-ocr
-=================================
+List of packages in ps-cv-ocr
+=============================
 
-.. image:: https://quay.io/repository/thoth-station/ps-cv-pytorch/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-pytorch?tab=tags
+.. image:: https://quay.io/repository/thoth-station/ps-cv-ocr/status
+  :target: https://quay.io/repository/thoth-station/ps-cv-oct?tab=tags
   :alt: Quay - Build
 
 .. code-block:: python
@@ -45,8 +45,8 @@ It is using some of the packages from `Generic Data Science Image <https://githu
     - pytesseract
 
 
-## List of packages in ps-cv-tensorflow
-=======================================
+List of packages in ps-cv-tensorflow
+====================================
 
 .. image:: https://quay.io/repository/thoth-station/ps-cv-tensorflow/status
   :target: https://quay.io/repository/thoth-station/ps-cv-tensorflow?tab=tags
@@ -57,8 +57,8 @@ It is using some of the packages from `Generic Data Science Image <https://githu
     - opencv-python
     - tensorflow
 
-## List of packages in ps-cv-pytorch
-====================================
+List of packages in ps-cv-pytorch
+=================================
 
 .. image:: https://quay.io/repository/thoth-station/ps-cv-pytorch/status
   :target: https://quay.io/repository/thoth-station/ps-cv-pytorch?tab=tags
