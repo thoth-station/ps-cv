@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# project template
+# ps-cv
 # Copyright(C) 2021 Red Hat, Inc.
 #
 # This program is free software: you can redistribute it and / or modify
@@ -17,4 +17,4 @@
 
 """This file carries the version of the template project."""
 
-__version__ = "0.1.0"
+__version__ = "0.0.0"
