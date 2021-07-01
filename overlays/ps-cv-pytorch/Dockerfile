@@ -1,4 +1,4 @@
-FROM quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4
+FROM quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5
 LABEL name="ps-cv-pytorch:latest" \
       summary="computer vision Source-to-Image for Python 3.8 applications." \
       description="Notebook image based on Source-to-Image.These images can be used in OpenDatahub JupterHub." \
@@ -23,19 +23,6 @@ ENV THAMOS_RUNTIME_ENVIRONMENT="ps-cv-pytorch" \
     UPGRADE_PIP_TO_LATEST="1"
 
 USER root
-
-# Install binary needed for pytesseract
-RUN dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-
-# Install Leptonica from Source
-RUN  wget -q http://www.leptonica.org/source/leptonica-1.76.0.tar.gz -O leptonica-1.76.0.tar.gz
-RUN tar -xzf leptonica-1.76.0.tar.gz --no-same-owner -C /opt/app-root/ &&\
-  cd /opt/app-root/leptonica-1.76.0 &&\
-  ./autobuild &&\
-  ./configure &&\
-  make &&\
-  make install &&\
-  cd
 
 # Install binary needed for open-cv
 RUN dnf install -y mesa-libGL
