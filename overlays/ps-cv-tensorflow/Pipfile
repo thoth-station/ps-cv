@@ -5,8 +5,12 @@ name = "pypi"
 
 [packages]
 opencv-python = "*"
+pillow = "*"
+scikit-image = "*"
 keras = "*"
+tensorboard = "*"
 tensorflow = ">=2.0.0"
+jupyter-tensorboard = "*"
 
 [dev-packages]
 
