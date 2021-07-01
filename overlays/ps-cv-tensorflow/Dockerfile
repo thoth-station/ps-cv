@@ -1,4 +1,4 @@
-FROM quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4
+FROM quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5
 LABEL name="ps-cv-tensorflow:latest" \
       summary="computer vision Source-to-Image for Python 3.8 applications." \
       description="Notebook image based on Source-to-Image.These images can be used in OpenDatahub JupterHub." \
@@ -18,7 +18,7 @@ ENV THAMOS_RUNTIME_ENVIRONMENT="ps-cv-tensorflow" \
     THAMOS_DEBUG="0" \
     THAMOS_VERBOSE="1" \
     THOTH_PROVENANCE_CHECK="0" \
-    JUPYTER_ENABLE_LAB="true"
+    JUPYTER_ENABLE_LAB="true" \
     ENABLE_MICROPIPENV="1" \
     UPGRADE_PIP_TO_LATEST="1"
 
