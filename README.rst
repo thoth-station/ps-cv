@@ -1,9 +1,65 @@
 Predicted Stack for Computer Vision Applications
 ------------------------------------------------
 
-This custom images contains Computer Vision packages for Data Science usage.
+The images described here are built with Thoth Predicted Stacks and contains Computer Vision packages for Data Science usage.
 
-It is using some of the packages from `Generic Data Science Image <https://github.com/thoth-station/s2i-generic-data-science-notebook>`__:
+.. image:: https://img.shields.io/github/v/tag/thoth-station/ps-cv?style=plastic
+  :target: https://github.com/thoth-station/ps-cv/releases
+  :alt: GitHub tag (latest by date)
+
+List of packages in ps-cv-ocr
+=============================
+
+.. image:: https://quay.io/repository/thoth-station/ps-cv-ocr/status
+  :target: https://quay.io/repository/thoth-station/ps-cv-oct?tab=tags
+  :alt: Quay - Build
+
+.. code-block:: python
+
+    - opencv-python
+    - pytesseract
+    - pillow
+
+This image contain specific binaries for `openv-cv` and `tesseract`. In particular tesseract languages added are Finnish, Swedish and English)
+
+List of packages in ps-cv-tensorflow
+====================================
+
+.. image:: https://quay.io/repository/thoth-station/ps-cv-tensorflow/status
+  :target: https://quay.io/repository/thoth-station/ps-cv-tensorflow?tab=tags
+  :alt: Quay - Build
+
+.. code-block:: python
+
+    - opencv-python
+    - tensorflow
+    - pillow
+    - keras
+    - tensorboard
+    - tensorflow
+    - jupyter-tensorboard
+
+List of packages in ps-cv-pytorch
+=================================
+
+.. image:: https://quay.io/repository/thoth-station/ps-cv-pytorch/status
+  :target: https://quay.io/repository/thoth-station/ps-cv-pytorch?tab=tags
+  :alt: Quay - Build
+
+.. code-block:: python
+
+    - opencv-python
+    - torch
+    - torchvision
+    - pillow
+    - tensorboard
+    - jupyter-tensorboard
+
+Generic data science packages
+=============================
+
+All the above images are built from `Generic Data Science Image <https://github.com/thoth-station/s2i-generic-data-science-notebook>`__,
+therefore they contain also the following packages:
 
 .. code-block:: python
 
@@ -30,42 +86,3 @@ It is using some of the packages from `Generic Data Science Image <https://githu
     - seaborn
     - sqlalchemy
     - statsmodels
-
-
-List of packages in ps-cv-ocr
-=============================
-
-.. image:: https://quay.io/repository/thoth-station/ps-cv-ocr/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-oct?tab=tags
-  :alt: Quay - Build
-
-.. code-block:: python
-
-    - opencv-python
-    - pytesseract
-
-
-List of packages in ps-cv-tensorflow
-====================================
-
-.. image:: https://quay.io/repository/thoth-station/ps-cv-tensorflow/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-tensorflow?tab=tags
-  :alt: Quay - Build
-
-.. code-block:: python
-
-    - opencv-python
-    - tensorflow
-
-List of packages in ps-cv-pytorch
-=================================
-
-.. image:: https://quay.io/repository/thoth-station/ps-cv-pytorch/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-pytorch?tab=tags
-  :alt: Quay - Build
-
-.. code-block:: python
-
-    - opencv-python
-    - torch
-    - torchvision
