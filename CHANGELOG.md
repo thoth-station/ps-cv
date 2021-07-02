@@ -14,3 +14,9 @@ all the things that you see...
 * :robot: included all the requirements for the build of images
 * Update README.rst
 * setup cv repository for jupyter notebooks
+
+## Release 0.1.1 (2021-07-02T06:17:43)
+### Features
+* remove pytesseract from DockerFile for pytorch and tensorflow
+### Bug Fixes
+* update the latest base image and fixed eol issue
