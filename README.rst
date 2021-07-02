@@ -11,7 +11,7 @@ List of packages in ps-cv-ocr
 =============================
 
 .. image:: https://quay.io/repository/thoth-station/ps-cv-ocr/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-oct?tab=tags
+  :target: https://quay.io/repository/thoth-station/ps-cv-ocr?tab=tags
   :alt: Quay - Build
 
 .. code-block:: python
