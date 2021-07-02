@@ -20,7 +20,7 @@ List of packages in ps-cv-ocr
     - pytesseract
     - pillow
 
-This image contain specific binaries for `openv-cv` and `tesseract`. In particular tesseract languages added are Finnish, Swedish and English)
+This image contain specific binaries for `openv-cv` and `tesseract`. In particular tesseract languages added are Finnish, Swedish and English).
 
 List of packages in ps-cv-tensorflow
 ====================================
@@ -39,6 +39,8 @@ List of packages in ps-cv-tensorflow
     - tensorflow
     - jupyter-tensorboard
 
+This image contain specific binaries for `openv-cv`.
+
 List of packages in ps-cv-pytorch
 =================================
 
@@ -54,6 +56,8 @@ List of packages in ps-cv-pytorch
     - pillow
     - tensorboard
     - jupyter-tensorboard
+
+This image contain specific binaries for `openv-cv`.
 
 Generic data science packages
 =============================
