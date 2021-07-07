@@ -26,9 +26,6 @@ runtime_environments:
 
 
 managers:
-  - name: update
-    configuration:
-      labels: [bot]
   - name: info
   - name: version
     configuration:
