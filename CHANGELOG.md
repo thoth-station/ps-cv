@@ -20,3 +20,10 @@ all the things that you see...
 * remove pytesseract from DockerFile for pytorch and tensorflow
 ### Bug Fixes
 * update the latest base image and fixed eol issue
+
+## Release 0.1.2 (2021-07-08T08:36:55)
+### Features
+* Fix Pillow upstream issue, adding pillow = '>8.3.0'
+* :cloud: stop auto updates till overlays feature is enabled
+* Add note on binaries
+* Adjust link
