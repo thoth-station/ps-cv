@@ -1,7 +1,7 @@
-Predicted Stack for Computer Vision Applications
-------------------------------------------------
+Predictable Stack for Computer Vision Applications
+--------------------------------------------------
 
-The images described here are built with Thoth Predicted Stacks and contains Computer Vision packages for Data Science usage.
+The images described here are built with Thoth Predictable Stacks and contains Computer Vision packages for Data Science usage.
 
 .. image:: https://img.shields.io/github/v/tag/thoth-station/ps-cv?style=plastic
   :target: https://github.com/thoth-station/ps-cv/releases
