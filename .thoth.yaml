@@ -25,7 +25,6 @@ runtime_environments:
     python_version: "3.8"
     recommendation_type: latest
 
-
 managers:
   - name: info
   - name: version
@@ -38,3 +37,6 @@ managers:
         - sesheta
       labels: [bot]
       changelog_file: true
+  - name: thoth-advise
+    configuration:
+      labels: [bot]
