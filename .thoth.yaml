@@ -36,6 +36,6 @@ managers:
         - sesheta
       labels: [bot]
       changelog_file: true
-  - name: thoth_advise
+  - name: thoth-advise
     configuration:
       labels: [bot]
